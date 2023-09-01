@@ -8,7 +8,7 @@
   /*flex-direction: row;*/
   /*align-items: center;*/
   /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: rgb(218, 201, 255);
 }
 
@@ -36,12 +36,17 @@
 
 .InputGrid
 {
-  margin-top: 40px;
-  margin-left: 40px;
-  width: 540px;
-  height: 540px;
+  display:inline-grid;
+  grid-template-columns: 60px 60px 62px 60px 60px 62px 60px 60px 60px;
+  grid-template-rows:  60px 60px 62px 60px 60px 62px 60px 60px 60px;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  width: 545px;
+  height: 545px;
   min-height: 20vh;
   min-width: 20vw;
+  padding: 2px 2px;
+  background-color: rgb(141, 92, 189);
 }
 
 
@@ -60,28 +65,4 @@
 
 .App-link {
   color: #6161fb;
-}
-
-.inputButtons-1{
-  border-color: rgb(127, 163, 255);
-  width: 60px;
-  height: 60px;
-  background-color: rgb(52, 197, 255);
-  text-align: center;
-  border-color: black;
-  display: inline-block;
-  font-size: 25px;
-  padding: 2px 2px;
-}
-
-.inputButtons-2{
-  border-color: rgb(127, 163, 255);
-  width: 60px;
-  height: 60px;
-  background-color: rgb(52, 255, 157);
-  text-align: center;
-  border-color: black;
-  display: inline-block;
-  font-size: 25px;
-  padding: 2px 2px;
 }
